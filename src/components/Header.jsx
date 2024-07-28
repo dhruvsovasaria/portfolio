@@ -4,8 +4,9 @@ import { Link } from "react-scroll";
 const Header = () => {
   return (
     <header>
-      <nav>
-        <ul className="flex">
+      <nav className="flex flex-row justify-between pl-5 pr-5">
+        <h1>Dhruv Sovasaria</h1>
+        <ul className="flex flex-row">
           <li>
             <Link to="home" smooth={true} duration={500}>
               Home

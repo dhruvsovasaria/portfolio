@@ -1,11 +1,5 @@
-import React, { useEffect } from "react";
-import gsap from "gsap";
-
+import React from "react";
 const Home = () => {
-  useEffect(() => {
-    gsap.fromTo(".home-text", { opacity: 0 }, { opacity: 1, duration: 2 });
-  }, []);
-
   return (
     <section id="home" className="home-section">
       <h1 className="home-text">Hi, I'm </h1>
