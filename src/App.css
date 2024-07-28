@@ -1,0 +1,164 @@
+/* #root {
+  max-width: 1280px;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+/* Reset CSS for the body and html to remove any default margins and paddings */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Apply consistent box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Ensure the root element does not have padding that could cause overflow */
+#root {
+  max-width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* name animation  */
+
+/* Specific styles for the name animation */
+#last-name {
+  position: relative;
+  display: inline-block;
+}
+
+#animated-o {
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Scroll animation classes */
+.grow {
+  transform: scale(2);
+  color: green; /* Change this to the desired color */
+}
+
+.about-section,
+.projects-section,
+.contact-section {
+  background: #f4f4f4;
+  margin-top: 20px;
+}
+
+/* adding the animation on the svg  */
+.home-section {
+  height: 200vh; /* Tall enough to allow scrolling */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.svg-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Place it behind the text */
+}
+
+#name {
+  position: relative;
+  z-index: 1;
+  margin-top: 100px;
+  color: black; /* Ensure text color is visible */
+}
+
+h1,
+p {
+  margin: 0;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

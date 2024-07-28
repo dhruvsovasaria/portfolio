@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mori:wght@400&display=swap"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhruv Sovasaria</title>
+  </head>
+  <body>
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <!--- ALL YOUR CONTENT HERE --->
+
+        <div id="root"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/index.jsx">
+      gsap.registerPlugin(ScrollTrigger)
+      gsap.to(".o" ,{ScrollTrigger:".o" ,
+        x: 400,
+        rotation: 360,
+        duration: 3
+      })
+    </script>
+  </body>
+</html>
