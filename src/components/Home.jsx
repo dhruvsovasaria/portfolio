@@ -1,21 +1,19 @@
 import React from "react";
 const Home = () => {
   return (
-    <section id="home" className="home-section">
-      <h1 className="home-text">Hi, I'm </h1>
-      {/* <h1 className="home-text">Dhruv Sovasaria </h1> */}
-      <h1>
-        <span id="first-name">Dhruv </span>
-        <span id="last-name">
-          S
-          <span className="o" id="animated-o">
-            o
-          </span>
-          vasaria
-        </span>
-      </h1>
-      <p className="home-text">DEVELOPER</p>
-    </section>
+    <div className="">
+      <section
+        id="home"
+        className="home-section bg-codeblack text-white w-5/7 flex gap-3"
+      >
+        <h1 className="text-codelightlime home-text text-7xl">Hi, I'm </h1>
+        {/* <h1 className="home-text">Dhruv Sovasaria </h1> */}
+        <h1 className=" text-codelime text-9xl font-semibold">
+          Dhruv Sovasaria{" "}
+        </h1>
+        <p className="home-text   text-5xl">Full Stack Developer</p>
+      </section>
+    </div>
   );
 };
 

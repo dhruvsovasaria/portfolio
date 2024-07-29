@@ -4,11 +4,11 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import "./App.css";
+import "./styles.css"; // Assuming you have renamed your CSS file or kept it as styles.css
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App bg-black">
       <Header />
       <Home />
       <About />
