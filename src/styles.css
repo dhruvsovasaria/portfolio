@@ -7,9 +7,7 @@ body {
   padding: 0;
   /* background-color: #dcff50; - lime color*/
 }
-body {
-  /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
-}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -35,12 +33,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #a3a3a3;
+  color: #;
   text-decoration: none;
   cursor: pointer;
 }
 nav ul li a:hover {
   color: #f5ffcb;
+  /* color: #; */
 }
 
 section {
@@ -60,3 +59,17 @@ section {
   background: #f4f4f4;
   margin-top: 20px;
 }
+.main-navigation {
+  box-shadow: 0 2px 10px 0 rgba(147, 147, 147, 0.2);
+}
+
+/* styles.css */
+.margin-10p {
+  margin: 5%;
+}
+
+.margin-20p {
+  margin: 20%;
+}
+
+/* Add more as needed */

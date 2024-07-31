@@ -8,7 +8,7 @@ import "./styles.css"; // Assuming you have renamed your CSS file or kept it as 
 
 const App = () => {
   return (
-    <div className="App bg-black">
+    <div className="App bg-codeblack">
       <Header />
       <Home />
       <About />

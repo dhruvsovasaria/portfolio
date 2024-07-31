@@ -13,10 +13,14 @@ export default {
   theme: {
     colors: {
       codelime: "#dcff50",
+      // codelime: "#b0cc41",
       black: "black",
       white: "white",
       codeblack: "#0e0e0e",
       codelightlime: "#F5FFCB",
+      codebutton: "#EAFF96",
+      textcolor: "#a3a3a3",
+      buttonhovercolor: "#393939",
     },
     extend: {},
   },

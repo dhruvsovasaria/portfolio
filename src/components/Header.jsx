@@ -1,16 +1,17 @@
 import React from "react";
 import { Link } from "react-scroll";
-
+// import { motion } from "framer-motion";
 const Header = () => {
   return (
-    <header>
-      <nav className="flex flex-row justify-between pl-5 pr-5">
+    <header className="py-3 hover:shadow-none transition-shadow duration-500 hover:border-none main-navigation nav">
+      <nav className="flex flex-row justify-between px-10">
         <button>
           <Link to="home" smooth={true}>
-            {/* <h1 className="logo text-codelime font-mono font-extrabold text-lg pl-3">
-              Dhruv Sovasaria
-            </h1> */}
-            <img src="src\assets\logo.ico" alt="" className="w-14 h-14" />
+            <img
+              src="src\assets\logo.ico"
+              alt=""
+              className="w-8 h-8 border-solid border-white border-2 hover:scale-110 transition-all duration-300"
+            />
           </Link>
         </button>
         <ul className="flex flex-row space-x-4 items-center justify-start">
@@ -35,8 +36,8 @@ const Header = () => {
             </Link>
           </li>
         </ul>
-        <button className="text-codelime border-dotted border-2 py-2 px-3">
-          Contact
+        <button className="text-black hover:bg-codelightlime border-black bg-codebutton border-solid font-normal text-sm border-4 px-3 py-1  rounded-lg">
+          Let's talk
         </button>
       </nav>
     </header>
