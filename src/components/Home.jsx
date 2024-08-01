@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  motion,
-  useInView,
-  useScroll,
-  useTransform,
-  useMotionValueEvent,
-} from "framer-motion";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (

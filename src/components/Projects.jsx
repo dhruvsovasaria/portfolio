@@ -3,11 +3,11 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
   const projects = [
     {
-      title: "Servify",
+      title: "personal Portfolio",
       description:
-        "A platform designed to connect individuals seeking local services with qualified providers on blockchain, for unparalleled credibility, accountability, and authenticity.",
-      awardText: "Winner at ETHIndia",
-      awardYear: "2023",
+        "This Portfolio Website is a sleek and user-friendly platform, powered by Vite.js and React. With sections like Home, About, Work and Contact, it seamlessly showcases Dhruv's projects, skills, and background. The responsive design ensures an optimal viewing experience across devices, inviting visitors to explore and connect.",
+      awardText: "",
+      awardYear: "",
       imageUrl: "https://via.placeholder.com/150",
     },
     {
