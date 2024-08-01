@@ -5,6 +5,7 @@
 body {
   margin: 0;
   padding: 0;
+  color: white;
   /* background-color: #dcff50; - lime color*/
 }
 
@@ -56,7 +57,6 @@ section {
 .about-section,
 .projects-section,
 .contact-section {
-  background: #f4f4f4;
   margin-top: 20px;
 }
 .main-navigation {
