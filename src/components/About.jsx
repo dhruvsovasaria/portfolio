@@ -12,7 +12,7 @@ const About = () => {
         id="about"
         className="text-textcolor about-section flex flex-col pb-10"
       >
-        <h1 className="text-3xl text-codebutton font-bold pb-5 px-28">
+        <h1 className="text-7xl text-codebutton font-bold pb-5 px-28">
           About me{" "}
         </h1>
         <p className="text-xl p-5 px-28 justify-center">
