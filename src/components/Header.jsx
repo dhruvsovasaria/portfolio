@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 // import { motion } from "framer-motion";
+import logo from "../assets/logo.ico";
 const Header = () => {
   return (
     <header className="py-3 hover:shadow-none transition-shadow duration-500 hover:border-none main-navigation nav">
@@ -8,7 +9,7 @@ const Header = () => {
         <button>
           <Link to="home" smooth={true}>
             <img
-              src="src\assets\logo.ico"
+              src={logo}
               alt=""
               className="w-8 h-8 border-solid border-white border-2 hover:scale-110 transition-all duration-300"
             />
