@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import dhruvPhoto from "../assets/dhruv-photo.png"; // Import the image
+import dhruvPhoto from "../assets/dhruv-photo.png";
 
 const Home = () => {
   return (

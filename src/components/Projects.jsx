@@ -30,8 +30,8 @@ const Projects = () => {
   ];
   return (
     <section id="projects" className="projects-section">
-      <h1 className="text-5xl text-codebutton p-6  pb-12 font-bold text-center">
-        Projects
+      <h1 className="text-5xl text-codebutton p-6  pb-20 font-bold text-center">
+        <u>Projects</u>
       </h1>
       <div className="bg-codeblack min-h-screen flex flex-wrap justify-center  gap-4 p-0">
         {projects.map((project, index) => (

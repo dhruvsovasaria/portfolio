@@ -18,7 +18,10 @@ const Header = () => {
               onClick={handleLogoClick}
               className="w-8 h-8 border-solid border-white border-2 hover:scale-110 transition-all duration-300"
             /> */}
-            <div className="font-semibold text-xl " onClick={handleLogoClick}>
+            <div
+              className="font-semibold text-xl text-codelightlime "
+              onClick={handleLogoClick}
+            >
               Dhruv Sovasaria
             </div>
           </Link>

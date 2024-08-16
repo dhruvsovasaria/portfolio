@@ -8,7 +8,7 @@ const ProjectCard = ({
   imageUrl,
 }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg  text-white p-6 ">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg  text-white p-6 border-2 border-gray-600">
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2 text-codelightlime">{title}</div>
         <p className="text-base ">{description}</p>
