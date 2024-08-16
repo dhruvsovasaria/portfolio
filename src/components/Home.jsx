@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import dhruvPhoto from "../assets/dhruv-photo.png";
+import dhruvPhoto from "../assets/dhruv-photo.png"; 
 
 const Home = () => {
   return (
@@ -21,7 +21,7 @@ const Home = () => {
             Dhruv Sovasaria
           </h1>
           <p className="home-text pl-2 text-5xl pt-14 font-light text-textcolor">
-            Web Developer
+            Full Stack Developer
           </p>
           <a
             href="https://www.linkedin.com/in/dhruvsovasaria/"
