@@ -4,6 +4,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      filter: {
+        dull: "grayscale(50%) brightness(70%)",
+      },
       fontFamily: {
         // sans: ["Inter", "sans-serif"],
       },

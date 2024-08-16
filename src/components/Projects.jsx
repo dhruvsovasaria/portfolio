@@ -1,5 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import portphoto from "../assets/portphoto.png";
+
 const Projects = () => {
   const projects = [
     {
@@ -8,7 +10,7 @@ const Projects = () => {
         "This Portfolio Website is a sleek and user-friendly platform, powered by Vite.js and React. With sections like Home, About, Work and Contact, it seamlessly showcases Dhruv's projects, skills, and background. The responsive design ensures an optimal viewing experience across devices, inviting visitors to explore and connect.",
       awardText: "",
       awardYear: "",
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: portphoto,
     },
     {
       title: "zPay",
