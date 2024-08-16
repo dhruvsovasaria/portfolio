@@ -14,7 +14,7 @@ const Home = () => {
           id="home"
           className="home-section bg-codeblack text-white flex-[4] flex flex-col justify-start p-6 pt-20"
         >
-          <h1 className="text-codelightlime home-text text-7xl pl-1 font-semibold">
+          <h1 className="text-lime-100 home-text text-7xl pl-1 font-semibold ">
             Hi, I'm
           </h1>
           <h1 className="text-codelime text-9xl font-semibold pb-2">
@@ -26,7 +26,7 @@ const Home = () => {
           <a
             href="https://www.linkedin.com/in/dhruvsovasaria/"
             target="_blank"
-            className="max-w-fit border-2 text-textcolor border-codelightlime my-10 text-sm rounded ml-3 hover:bg-buttonhovercolor font-medium px-4 py-3 hover:text-codelightlime transition-colors duration-150"
+            className="max-w-fit border-2 text-codelightlime my-10 text-sm rounded ml-3 hover:bg-buttonhovercolor font-medium px-4 py-3 hover:text-codelightlime transition-colors duration-150"
           >
             Checkout Linkedin
           </a>
