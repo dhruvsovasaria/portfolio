@@ -23,7 +23,7 @@ const About = () => {
         id="about"
         className="text-textcolor about-section flex flex-col pb-10"
       >
-        <h1 className="text-7xl text-codebutton font-semibold pb-5 px-28">
+        <h1 className="text-5xl text-codebutton font-semibold pb-5 px-28">
           About me{" "}
         </h1>
         <p className="text-xl p-5 px-28 justify-center">
@@ -34,7 +34,7 @@ const About = () => {
           my technical expertise, I possess strong soft skills such as
           communication, critical thinking, and problem-solving. I am a team
           player and enjoy collaborating with others to achieve common goals.
-          <div className="text-gray-300 font-sans">
+          <div>
             <h3 className="text-lg pt-8 mb-4">
               Here are a few technologies I've been working with recently:
             </h3>
