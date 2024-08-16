@@ -2,15 +2,21 @@ import React from "react";
 import { Link } from "react-scroll";
 // import { motion } from "framer-motion";
 import logo from "../assets/logo.ico";
+
+const handleLogoClick = () => {
+  window.location.reload();
+};
+
 const Header = () => {
   return (
     <header className="py-3 hover:shadow-none transition-shadow duration-500 hover:border-none main-navigation nav">
       <nav className="flex flex-row justify-between px-10">
         <button>
-          <Link to="home" smooth={true}>
+          <Link>
             <img
               src={logo}
               alt=""
+              onClick={handleLogoClick}
               className="w-8 h-8 border-solid border-white border-2 hover:scale-110 transition-all duration-300"
             />
           </Link>
@@ -37,7 +43,7 @@ const Header = () => {
             </Link>
           </li>
         </ul>
-        <button className="text-black hover:bg-codelightlime border-black bg-codebutton border-solid font-normal text-sm border-4 px-3 py-1  rounded-lg">
+        <button className="text-black hover:bg-codelightlime border-black bg-codebutton border-solid font-normal text-sm border-4 px-3 py-1  rounded-lg font-semibold">
           Let's talk
         </button>
       </nav>

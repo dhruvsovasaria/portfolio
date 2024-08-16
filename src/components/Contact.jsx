@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="contact-section  text-textcolor py-5 md:w-4/5 lg:w-4/5 mx-auto"
+      className="contact-section  text-textcolor  md:w-4/5 lg:w-4/5 mx-auto"
     >
       <div className="text-center">
         <a href="">

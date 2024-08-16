@@ -23,19 +23,17 @@ const About = () => {
         id="about"
         className="text-textcolor about-section flex flex-col pb-10"
       >
-        <h1 className="text-7xl text-codebutton font-bold pb-5 px-28">
+        <h1 className="text-7xl text-codebutton font-semibold pb-5 px-28">
           About me{" "}
         </h1>
         <p className="text-xl p-5 px-28 justify-center">
-          Hello! I'm Dhruv Sovasaria, a passionate and versatile technologist
-          with a strong foundation. Currently pursuing B.Tech in Computer
-          Science and Engineering from SRMIST, Chennai. Lorem ipsum dolor sit
-          amet consectetur, adipisicing elit. Sapiente asperiores assumenda,
-          blanditiis neque itaque temporibus quam quibusdam rerum? Cum repellat
-          totam quaerat debitis et at illum possimus rem, aspernatur quisquam?
-          Maiores ut cumque, fugiat laborum voluptatum earum labore impedit quae
-          doloribus non accusamus. Similique dolores, illo minima eaque soluta
-          autem.
+          Currently a Junior at SRM University, I am a proficient and driven
+          full-stack developer with extensive experience in emerging
+          technologies. I possess diverse technical skills, I have the capacity
+          to tackle complex projects in the tech industry with ease. Along with
+          my technical expertise, I possess strong soft skills such as
+          communication, critical thinking, and problem-solving. I am a team
+          player and enjoy collaborating with others to achieve common goals.
           <div className="text-gray-300 font-sans">
             <h3 className="text-lg pt-8 mb-4">
               Here are a few technologies I've been working with recently:

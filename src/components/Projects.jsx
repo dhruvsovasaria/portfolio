@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
   const projects = [
     {
-      title: "personal Portfolio",
+      title: "Personal Portfolio",
       description:
         "This Portfolio Website is a sleek and user-friendly platform, powered by Vite.js and React. With sections like Home, About, Work and Contact, it seamlessly showcases Dhruv's projects, skills, and background. The responsive design ensures an optimal viewing experience across devices, inviting visitors to explore and connect.",
       awardText: "",
@@ -11,17 +11,16 @@ const Projects = () => {
       imageUrl: "https://via.placeholder.com/150",
     },
     {
-      title: "LenDen",
+      title: "zPay",
       description:
-        "LenDen bridges the need for a seamless, user-friendly interface that makes the borrowing and lending process easier, so that users can get liquidity in a way that is simple and easy to understand.",
+        "built with mongodb , nodejs , jwt and react , offering safe transactions and a seamless user experience",
       awardText: "Winner at Unfold",
-      awardYear: "2023",
-      imageUrl: "https://via.placeholder.com/150",
+      awardYear: "",
+      imageUrl: "",
     },
     {
-      title: "Resume CLI",
-      description:
-        "A command-line interface (CLI) portfolio made using Rust. It provides a simple and interactive way to showcase your internships/projects and skills in a terminal environment. With this portfolio, you can easily manage and present your work to others.",
+      title: "Drucx",
+      description: "Platform for buying and selling thrifted clothes ",
       awardText: "",
       awardYear: "",
       imageUrl: "https://via.placeholder.com/150",
@@ -29,8 +28,10 @@ const Projects = () => {
   ];
   return (
     <section id="projects" className="projects-section">
-      <h2>Projects</h2>
-      <div className="bg-black min-h-screen flex flex-wrap justify-center p-10 gap-4">
+      <h1 className="text-5xl text-codebutton p-6  pb-12 font-bold text-center">
+        Projects
+      </h1>
+      <div className="bg-codeblack min-h-screen flex flex-wrap justify-center  gap-4 p-0">
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
