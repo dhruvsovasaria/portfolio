@@ -28,11 +28,12 @@ const Contact = () => {
         </div>
       </section>
 
-      <div className="bg-gray-200 min-h-96  text-center mx-auto flex justify-center items-center mt-60 rounded-bl-3xl rounded-br-3xl flex-col ">
-        <div className="text-3xl text-codeblacktext-codeblack text-codeblack">
+      <div className="from-codeblack to-white min-h-96  bg-gradient-to-b text-center mx-auto flex justify-center items-center mt-60 rounded-bl-3xl rounded-br-3xl flex-col ">
+        <div> </div> <div> </div>
+        <div className="text-3xl text-codeblacktext-codeblack font-semibold text-codeblack">
           Interested in working
         </div>
-        <div className="text-3xl text-codeblack ">with me ?</div>
+        <div className="text-3xl text- font-semibold text-black">with me ?</div>
         <a
           href=""
           className="bg-black text-white
