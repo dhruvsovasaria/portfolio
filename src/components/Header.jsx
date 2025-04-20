@@ -18,10 +18,7 @@ const Header = () => {
               onClick={handleLogoClick}
               className="w-8 h-8 border-solid border-white border-2 hover:scale-110 transition-all duration-300"
             /> */}
-            <div
-              className="font-semibold text-xl text-codelightlime "
-              onClick={handleLogoClick}
-            >
+            <div className="font-semibold text-xl text-codelightlime " onClick={handleLogoClick}>
               Dhruv Sovasaria
             </div>
           </Link>
@@ -37,11 +34,6 @@ const Header = () => {
               <span className="inline-block">About</span>
             </Link>
           </li>
-          <li className="text-base transition-transform duration-500">
-            <Link to="projects" smooth={true} duration={500}>
-              <span className="inline-block">Projects</span>
-            </Link>
-          </li>
           <li className="text-base transition-transform duration-300">
             <Link to="contact" smooth={true} duration={500}>
               <span className="inline-block">Links</span>
@@ -49,11 +41,7 @@ const Header = () => {
           </li>
         </ul>
         <button className="text-black hover:bg-codelightlime border-black bg-codebutton border-solid  text-sm border-4 px-3 py-1  rounded-lg font-semibold">
-          <a
-            href="https://www.linkedin.com/in/dhruvsovasaria/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.linkedin.com/in/dhruvsovasaria/" target="_blank" rel="noopener noreferrer">
             Visit LinkedIn
           </a>
         </button>

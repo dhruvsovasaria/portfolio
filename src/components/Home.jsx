@@ -1,44 +1,21 @@
 import React from "react";
 import { motion } from "framer-motion";
-import dhruvPhoto from "../assets/dhruv-photo.png"; 
+import dhruvPhoto from "../assets/dhruv-photo.png";
 
 const Home = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ margin: "-400px 0px" }}
-    >
-      <div className="flex w-full h-screen pl-10 pt-0">
-        <section
-          id="home"
-          className="home-section bg-codeblack text-white flex-[4] flex flex-col justify-start p-6 pt-20"
-        >
-          <h1 className="text-lime-100 home-text text-7xl pl-1 font-semibold ">
-            Hi, I'm
-          </h1>
-          <h1 className="text-codelime text-9xl font-semibold pb-2">
-            Dhruv Sovasaria
-          </h1>
-          <p className="home-text pl-2 text-5xl pt-14 font-light text-textcolor">
-            Full Stack Developer
-          </p>
-          <a
-            href="https://www.linkedin.com/in/dhruvsovasaria/"
-            target="_blank"
-            className="max-w-fit border-2 text-codelightlime my-10 text-sm rounded ml-3 hover:bg-buttonhovercolor font-medium px-4 py-3 hover:text-codelightlime transition-colors duration-150"
-          >
-            Checkout Linkedin
-          </a>
-        </section>
-        <section className="flex-[1] flex justify-center h-100 p-0 pr-5 items-end">
-          <img
-            src={dhruvPhoto} // Use the imported image here
-            alt="dhruv-profile-photo"
-            className="min-h-[80vh] object-cover"
-          />
-        </section>
-      </div>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
+      <section id="home" className="home-section min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-6xl font-bold mb-4 text-codelightlime">Dhruv Sovasaria</h1>
+          <p className="text-2xl text-gray-300 mb-8">Full Stack Developer</p>
+          <div className="flex justify-center gap-4">
+            <a href="#about" className="btn btn-primary">
+              Learn More
+            </a>
+          </div>
+        </div>
+      </section>
     </motion.div>
   );
 };
