@@ -123,7 +123,7 @@ section {
 }
 
 .main-navigation {
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px 0 rgba(147, 147, 147, 0.2);
 }
 
 /* Modern Card Styles */
